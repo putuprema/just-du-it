@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f480c08-18ee-4626-ab19-d31dd8c588d8" name="Default Changelist" comment="initial commit" />
+    <list default="true" id="6f480c08-18ee-4626-ab19-d31dd8c588d8" name="Default Changelist" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +17,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -230,6 +235,8 @@
       <workItem from="1607950841776" duration="23681000" />
       <workItem from="1608000217095" duration="5120000" />
       <workItem from="1608397144332" duration="3699000" />
+      <workItem from="1608401517581" duration="254000" />
+      <workItem from="1608402017799" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1608401403375</created>
@@ -245,7 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608401442241</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="composer.json: rename project name">
+      <created>1608401648742</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608401648742</updated>
+    </task>
+    <task id="LOCAL-00004" summary="composer.json: rename project description">
+      <created>1608401731940</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608401731941</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,9 +282,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="composer.json: rename project name" />
+    <MESSAGE value="composer.json: rename project description" />
+    <option name="LAST_COMMIT_MESSAGE" value="composer.json: rename project description" />
   </component>
 </project>
