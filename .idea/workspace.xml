@@ -355,10 +355,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHPUnit.phpunit.xml" />
-      <item itemvalue="PHP Script.Just Du It!" />
-      <item itemvalue="npm.prod" />
       <item itemvalue="npm.watch" />
+      <item itemvalue="npm.prod" />
+      <item itemvalue="PHP Script.Just Du It!" />
+      <item itemvalue="PHPUnit.phpunit.xml" />
     </list>
     <recent_temporary>
       <list>
