@@ -1,0 +1,23 @@
+@import "variables";
+
+.cart-list-item {
+    background: white;
+    border-radius: 10px;
+    box-shadow: $box-shadow;
+    margin-bottom: 1rem;
+
+    .image {
+        border-radius: 10px;
+        background-position: center;
+        background-size: cover;
+        height: 100px;
+    }
+}
+
+@media (max-width: 992px) {
+    .cart-list-item {
+        .image {
+            height: 200px;
+        }
+    }
+}

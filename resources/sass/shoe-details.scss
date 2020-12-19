@@ -1,0 +1,36 @@
+@import "variables";
+
+.shoe-details-container {
+    display: grid;
+    column-gap: 1.5rem;
+    row-gap: 1rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: $box-shadow;
+
+    .image {
+        border-radius: 10px;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        max-width: 100%;
+        height: 250px;
+    }
+
+    .price {
+        color: $primary;
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .shoe-details-container {
+        grid-template-columns: auto 1fr;
+
+        .image {
+            width: 250px;
+        }
+    }
+}

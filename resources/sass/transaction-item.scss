@@ -1,0 +1,31 @@
+@import "variables";
+
+.transaction-list-item {
+    background: white;
+    border-radius: 10px;
+    box-shadow: $box-shadow;
+    margin-bottom: 2rem;
+
+    .transaction-shoes-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(0, 200px));
+        column-gap: 1rem;
+        row-gap: 1rem;
+        padding: 1rem;
+
+        .shoe-image {
+            border-radius: 10px;
+            background-position: center;
+            background-size: cover;
+            height: 150px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .transaction-list-item {
+        .transaction-shoes-container {
+            justify-content: center;
+        }
+    }
+}

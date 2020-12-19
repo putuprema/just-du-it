@@ -1,0 +1,54 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import "home";
+@import "shoe-details";
+@import "cart-item";
+@import "transaction-item";
+
+.just-du-it-logo {
+    font-size: 1.5rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+
+    .Sidebar {
+        color: white;
+        background: $primary;
+        min-height: 100vh;
+        padding: 1rem;
+        min-width: 280px;
+
+        &__item {
+            display: block;
+            color: white;
+            text-decoration: none;
+            font-size: 1.25rem;
+            margin-top: 1rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        display: block;
+
+        .Sidebar {
+            display: none;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .sidebar-menu-on-navbar {
+        display: none;
+    }
+}
